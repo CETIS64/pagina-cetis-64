@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://us.123rf.com/450wm/cougarsan/cougarsan1703/cougarsan170300034/73324525-gradiente-pastel-neutro-hielo-de-melocot%C3%B3n-colortone-japon%C3%A9s-papel-de-embalaje-de-fondo.jpg?ver=6);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 420px;
+    background:;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: broadway;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family:century goting;
+    
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box select{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.login-box select
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #959495;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #F746F7;
+    color: #F746F7;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+.login-box a:hover
+{
+    color: #fff;
+}
+
+
+
+
