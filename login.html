@@ -1,0 +1,33 @@
+<Doctype HTML>
+<html lang="es">
+<head>
+<title></title>
+<link rel="stylesheet"  href="css/style2.css">
+<script type="text/javascript">
+
+function focusMethod(x){
+                  x.style.color="black";
+                  x.style.backgroundColor="#2CE1D4";
+
+    x.style.fontfamily="Ar Christy";
+              }
+          </script>
+
+</head>
+  <body>
+
+    <div class="login-box">
+    <img src="img/avatar.png" class="avatar">
+<h1>Administrador</h1>
+
+<form name="form" action="php/login.php" method="post" >
+<p>Usuario</p>
+ <input name="curp" type="text" id="curp"  required placeholder="" onfocus="focusMethod(this)">
+ <p>Password</p>
+ <input name="con" type="password" id="cont2" required placeholder=""  >
+          <input type="submit" name="submit" value="ENTRAR" onmouseover="validar(this)">
+      </form>
+        </div>
+
+ </body>
+ </html>
